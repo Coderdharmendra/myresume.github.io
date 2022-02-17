@@ -1,0 +1,226 @@
+@media only screen and (min-width: 360px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+body {
+  background-size: 100%;
+  background-color: #ffffff;
+}
+
+/* HEADER PART */
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #283144;
+}
+
+.imgs {
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid #4f9bb9;
+  margin: 20px 0px 20px 0px;
+  /* background-image: url(dharmendra.png); */
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  background-size: cover;
+}
+
+.content {
+  margin: 0px 0px 0px 50px;
+  width: 75%;
+}
+
+.content h1,
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content h2 {
+  font-size: 20px !important;
+  color: #57cccc;
+}
+
+.content p {
+  text-transform: capitalize;
+  color: #9dcbdd;
+  width: 60%;
+  text-align: justify;
+}
+
+/* CONTACT OF CANDIDATE PART */
+#contact {
+  width: 100%;
+  background-color: #20262c;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  margin: 0px 0px 0px 50px;
+  padding-top: 30px;
+}
+
+.main .contact-1,
+.contact-2 {
+  width: 50%;
+}
+
+.main .contact-1 div,
+.contact-2 div {
+  margin: 0px 0px 15px 0px;
+}
+
+.contact-1 div a,
+.contact-2 div a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* ALL EDUCATION AND SKILL PART INCLUDE IN THE SECTION DESIGN */
+.last-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+}
+
+.last-section .last-section-1,
+.last-section-2 {
+  width: 50%;
+}
+
+.education div h1,
+.skill div h1 {
+  color: #2b8585;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.education hr {
+  width: 90%;
+  text-align: left;
+  margin: 0px;
+  opacity: .3;
+}
+
+.education div hr {
+  width: 90%;
+  height: 5px;
+  background-color: #2f7575;
+  margin-left: 0%;
+  margin-top: -.5px;
+  opacity: 1;
+}
+
+.education div hr:hover,
+.skill div hr:hover {
+  width: 89%;
+  cursor: pointer;
+}
+
+.skill div hr {
+  width: 90%;
+  height: 5px;
+  background-color: #2f7575;
+  margin-left: 0%;
+  margin-top: -.5px;
+}
+
+.education div h3 {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 29.9px;
+  width: auto;
+}
+
+.education div h4 {
+  text-transform: capitalize;
+  font-size: 25px;
+  width: 90%;
+  margin-top: -15px;
+  color: #292828;
+  font-weight: normal;
+}
+
+.education .data,
+#course {
+  margin-top: -40px;
+  font-size: 22px;
+  color: #25484b;
+}
+
+.education .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.data h6 {
+  text-transform: capitalize;
+  text-align: right;
+  margin-right: 0%;
+  width: 50%;
+}
+
+.education #course {
+  font-size: 20px;
+  color: #213f3f;
+}
+
+.education > div {
+  margin-bottom: 50px;
+}
+
+/* skills*/
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skills .programming,
+.frameworks {
+  width: 50%;
+}
+
+.skills .programming div h1,
+.frameworks div h1 {
+  font-size: 25px;
+  color: #183333;
+  text-transform: capitalize;
+}
+
+.project div hr {
+  width: 90%;
+  height: 5px;
+}
+/*# sourceMappingURL=cv.css.map */
